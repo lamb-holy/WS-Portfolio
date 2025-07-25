@@ -1,0 +1,122 @@
+.main_container {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.main_list {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.item-btn1:hover , .item-btn2:hover , .item-btn3:hover , .item-btn4:hover , .item-btn5:hover {
+    background-color: var(--lightBlue);
+    color: white;
+    transform: scale(1.03);
+}
+
+.item-btn1 {
+    border: solid 0px;
+    background-color: var(--white_gray);
+    border-radius: 5px;
+    width: 73px;
+    height: 37px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    color: var(--coalBlack);
+}
+
+.item-btn2 {
+    border: solid 0px;
+    background-color: var(--white_gray);
+    border-radius: 5px;
+    width: 125px;
+    height: 37px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    color: var(--coalBlack);
+}
+
+.item-btn3 {
+    border: solid 0px;
+    background-color: var(--white_gray);
+    border-radius: 5px;
+    width: 112px;
+    height: 37px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    color: var(--coalBlack);
+}
+
+.item-btn4 {
+    border: solid 0px;
+    background-color: var(--white_gray);
+    border-radius: 5px;
+    width: 103px;
+    height: 37px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    color: var(--coalBlack);
+}
+
+.item-btn5 {
+    border: solid 0px;
+    background-color: var(--white_gray);
+    border-radius: 5px;
+    width: 130px;
+    height: 37px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    color: var(--coalBlack);
+}
+
+.main_bread-N-vine {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    max-width: 1170px;
+}
+
+.line-item {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.line-item:hover {
+    transform: scale(1.03);
+}
+
+
+.imageless-block {
+    border: 1px solid var(--lightColor);
+    padding: 20px 15px;
+}
+
+.item-title {
+    color: var(--coalBlack);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 6%;
+}
+
+.item-value {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 3%;
+    color: var(--gray);
+}
+
+/* 1170x1360 */
